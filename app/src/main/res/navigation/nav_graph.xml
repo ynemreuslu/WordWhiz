@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wordwhiz_navigation"
+    app:startDestination="@id/wordFragment">
+
+    <fragment
+        android:id="@+id/wordFragment"
+        android:name="com.ynemreuslu.wordwhiz.screen.word.WordFragment"
+        android:label="fragment_words"
+        tools:layout="@layout/fragment_word">
+        <action
+            android:id="@+id/action_wordFragment_to_wordDetailsFragment"
+            app:destination="@id/wordDetailsFragment">
+            <argument
+                android:name="wordsArg"
+                app:argType="com.ynemreuslu.wordwhiz.data.model.Words" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/learnedFragment"
+        android:name="com.ynemreuslu.wordwhiz.screen.learned.LearnedFragment"
+        android:label="fragment_learned"
+        tools:layout="@layout/fragment_learned" />
+    <fragment
+        android:id="@+id/translateFragment"
+        android:name="com.ynemreuslu.wordwhiz.screen.translate.TranslateFragment"
+        android:label="fragment_translate"
+        tools:layout="@layout/fragment_translate" />
+    <fragment
+        android:id="@+id/wordDetailsFragment"
+        android:name="com.ynemreuslu.wordwhiz.screen.worddetails.WordDetailsFragment"
+        android:label="fragment_word_details"
+        tools:layout="@layout/fragment_word_details">
+        <argument
+            android:name="wordsArg"
+            app:argType="com.ynemreuslu.wordwhiz.data.model.Words" />
+        <action
+            android:id="@+id/action_wordDetailsFragment_to_wordFragment"
+            app:destination="@id/wordFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/word"
+        android:id="@+id/wordFragment"
+        android:icon="@drawable/selected_words"/>
+
+    <item
+        android:title="@string/learned"
+        android:id="@+id/learnedFragment"
+        android:icon="@drawable/selected_learned"/>
+
+    <item
+        android:title="@string/translation"
+        android:id="@+id/translateFragment"
+        android:icon="@drawable/text_fields"/>
+
+</menu>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".screen.worddetails.WordDetailsFragment">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/md_theme_light_background"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- UK Flag and English Word -->
+
+    <!-- TR Flag and Turkish Word -->
+
+    <ImageView
+        android:id="@+id/imgUkFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/ic_uk_flag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEnglishWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgUkFlag"
+        app:layout_constraintStart_toEndOf="@+id/imgUkFlag"
+        tools:text="Word in English" />
+
+    <ImageView
+        android:id="@+id/imgTrFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/ic_tr_flag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUkFlag" />
+
+    <!-- Play Pronunciation Button and Pronunciation Text -->
+
+    <!-- Play Pronunciation Button and Pronunciation Text -->
+
+    <!-- Synonyms Section -->
+
+    <TextView
+        android:id="@+id/tvTurkishWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:alpha="0.5"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tvEnglishWord"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnglishWord"
+        tools:text="Word in Turkish" />
+
+    <TextView
+        android:id="@+id/tvPronunciation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:alpha="0.5"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTrFlag"
+        tools:text="Pronunciation" />
+
+    <ImageButton
+        android:id="@+id/btnPlayPronunciation"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="149dp"
+        android:backgroundTint="@color/md_theme_light_background"
+        android:src="@drawable/volume"
+        app:layout_constraintBottom_toTopOf="@+id/btnLearned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toEndOf="@+id/tvPronunciation"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvSynonymsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:text="synonyms:"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPronunciation" />
+
+    <!-- Example Section -->
+
+
+    <TextView
+        android:id="@+id/tvSynonyms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSynonymsLabel"
+        tools:text="Example of synonyms" />
+
+    <TextView
+        android:id="@+id/tvExampleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:alpha="0.5"
+        android:text="Example:"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSynonyms" />
+
+    <TextView
+        android:id="@+id/tvExample"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvExampleLabel"
+        tools:text="Example notes or further details" />
+
+    <Button
+        android:id="@+id/btnLearned"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/md_theme_light_primary"
+        android:text="Learned"
+        android:textColor="@color/md_theme_light_onPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

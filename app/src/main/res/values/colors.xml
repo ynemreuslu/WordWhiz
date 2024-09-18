@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_light_primary">#FF6F00</color> <!-- Turuncu ana renk -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color> <!-- Ana rengin üstünde beyaz yazı -->
+    <color name="md_theme_light_primaryContainer">#FFFFFF</color> <!-- Beyaz ana renk konteyneri -->
+    <color name="md_theme_light_onPrimaryContainer">#FF6F00</color> <!-- Turuncu yazı -->
+
+
+    <color name="md_theme_light_secondary">#FF7043</color> <!-- İkincil renk: Koyu turuncu -->
+    <color name="md_theme_light_onSecondary">#FFFFFF</color> <!-- İkincil rengin üstünde beyaz yazı -->
+    <color name="md_theme_light_secondaryContainer">#FFFFFF</color> <!-- Beyaz konteyner -->
+    <color name="md_theme_light_onSecondaryContainer">#FF6F00</color> <!-- İkincil konteynerde turuncu yazı -->
+
+
+
+    <color name="md_theme_light_error">#D84315</color> <!-- Hata rengi: Kırmızımsı turuncu -->
+    <color name="md_theme_light_onError">#FFFFFF</color> <!-- Hata üstünde beyaz yazı -->
+    <color name="md_theme_light_errorContainer">#FFFFFF</color> <!-- Hata konteyner: Açık ton -->
+    <color name="md_theme_light_onErrorContainer">#BF360C</color> <!-- Hata konteyner üstünde koyu yazı -->
+
+    <color name="md_theme_light_background">#FFFFFF</color> <!-- Arka plan rengi: Çok açık turuncu -->
+    <color name="md_theme_light_onBackground">#FFFFFF</color> <!-- Arka plan üstünde koyu turuncu yazı -->
+
+    <color name="md_theme_light_surface">#FFFFFF</color> <!-- Yüzey rengi: Açık turuncu -->
+    <color name="md_theme_light_onSurface">#FFFFFF</color> <!-- Yüzey üstünde koyu turuncu yazı -->
+    <color name="md_theme_light_surfaceVariant">#FFFFFF</color> <!-- Yüzey varyantı: Daha açık turuncu -->
+
+    <color name="md_theme_light_outline">#FF8A65</color> <!-- Çizgiler için renk: Açık turuncu -->
+    <color name="md_theme_light_shadow">#000000</color> <!-- Gölge rengi: Siyah -->
+    <color name="md_theme_light_inverseSurface">#FFFFFF</color> <!-- Ters yüzey rengi: Koyu turuncu -->
+    <color name="md_theme_light_inverseOnSurface">#FFFFFF</color> <!-- Ters yüzey üstünde yazı: Açık ton -->
+
+</resources>
