@@ -18,6 +18,15 @@ This is **WordWhiz**, an English Dictionary application built using Android tech
 - **🧭 Navigation Component**: For managing fragment transactions
 - **🚀 Splash Screen**: Initial splash screen on app launch
 
-## ⚙️ Installation
+## 📸 Screenshots
+Here are some screenshots of the app in action:
 
-1. git clone https://github.com/ynemreuslu/WordWhiz.git
+![Details Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/details.png)
+![Learned Words](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/learned.png)
+![Splash Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/splashScreen.png)
+![Translate Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/translate.png)
+![Word Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/word.png)
+
+## ⚙️ Installation
+ git clone https://github.com/ynemreuslu/WordWhiz.git
+
