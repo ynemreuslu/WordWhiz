@@ -21,12 +21,16 @@ This is **WordWhiz**, an English Dictionary application built using Android tech
 ## 📸 Screenshots
 Here are some screenshots of the app in action:
 
-![Details Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/details.png)
-![Learned Words](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/learned.png)
-![Splash Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/splashScreen.png)
-![Translate Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/translate.png)
-![Word Screen](https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/word.png)
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/details.png" alt="Details Screen" width="200"/>
+    <img src="https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/learned.png" alt="Learned Words" width="200"/>
+    <img src="https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/splashScreen.png" alt="Splash Screen" width="200"/>
+    <img src="https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/translate.png" alt="Translate Screen" width="200"/>
+    <img src="https://github.com/ynemreuslu/WordWhiz/blob/master/app/src/main/assets/image/word.png" alt="Word Screen" width="200"/>
+</div>
 
 ## ⚙️ Installation
- git clone https://github.com/ynemreuslu/WordWhiz.git
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ynemreuslu/WordWhiz.git
