@@ -1,6 +1,6 @@
-# 📖 English Dictionary Application
+# 📖 WordWhiz - English Dictionary Application
 
-This is an English Dictionary application built using Android technologies. The app provides word definitions, allows users to mark learned words, and includes random word suggestions.
+This is **WordWhiz**, an English Dictionary application built using Android technologies. The app provides word definitions, allows users to mark learned words, and includes random word suggestions.
 
 ## ✨ Features
 - 🔍 View word definitions and details
@@ -19,4 +19,5 @@ This is an English Dictionary application built using Android technologies. The 
 - **🚀 Splash Screen**: Initial splash screen on app launch
 
 ## ⚙️ Installation
-git clone https://github.com/yourusername/english-dictionary-app.git
+
+1. git clone https://github.com/ynemreuslu/WordWhiz.git
